@@ -39,3 +39,10 @@ extension Person {
         return persons
     }
 }
+
+enum ImageContacts: String {
+    case phone = "phone"
+    case email = "tray"
+    case person = "person.fill"
+    case contacts = "person.2"
+}

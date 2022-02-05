@@ -20,9 +20,7 @@ struct Contacts: View {
             .navigationTitle("Contact List")
         }
     }
-        
 }
-
 
 struct Contacts_Previews: PreviewProvider {
     static var previews: some View {
