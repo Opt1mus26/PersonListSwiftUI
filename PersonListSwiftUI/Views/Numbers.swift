@@ -12,7 +12,7 @@ struct Numbers: View {
     var body: some View {
         NavigationView {
             List(contacts) { persons in
-                Section(header: Text("\(persons.fullName)")) {
+                Section(persons.fullName) {
                     RowView(image: ImageContacts.phone.rawValue,
                             text: persons.phone)
                     RowView(image: ImageContacts.email.rawValue,
