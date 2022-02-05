@@ -16,7 +16,7 @@ struct Detail: View {
                     Spacer()
                     Image(systemName: "person.fill")
                         .resizable()
-                        .frame(width: 200, height: 200, alignment: .center)
+                        .frame(width: 200, height: 200)
                     .padding()
                     Spacer()
                 }
